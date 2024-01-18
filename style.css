@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
     background-color: rgb(229, 229, 239);
@@ -7,7 +7,8 @@ body{
     /* background-image: url('asset/bg.jpeg');
     background-size: cover; */
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,49 +17,63 @@ nav{
     background-color: transparent;
     position: fixed;
     height: 80px;
-    width: 100%;  
-    z-index: 1;     
+    width: 100%;
+    z-index: 1;
 }
-#navbar.white{
+
+#navbar.white {
     background-color: rgb(177, 177, 240);
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: center;
-    
+
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-nav ul li{
+
+nav ul li {
     list-style: none;
     margin: 0 20px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: white
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     color: rgb(163, 91, 230);
     font-size: 15px;
     transition: ease;
 }
-main hr{
+
+main hr {
     border: 0;
     background-color: rgba(21, 49, 7, 0.055);
     height: 1.5px;
     margin: 60px 48px;
-    
+
 }
-.left{
+
+#firsthr {
+    visibility: hidden;
+}
+
+.left {
     font-size: 1.5rem;
-    padding-right: 28vw 
+    padding-right: 28vw
 }
-.left a{
+
+.left a {
     text-decoration: none;
     color: white
 }
-.firstsec{
+
+.firstsec {
     display: flex;
     justify-content: space-around;
     /* margin: 50px 0; */
@@ -69,112 +84,131 @@ main hr{
     height: 100%; */
     height: 100vh;
 }
-.firstsec ::before{
+
+.firstsec ::before {
     content: "";
- position: absolute;
- bottom: 0;
- left: 0;
- right: 0;
- height: 15%; /* You can adjust this value to control the size of the fading area */
- background-image: linear-gradient(to bottom, 
- rgba(255, 255, 255,0), rgb(229, 229, 239,0.38));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 15%;
+    /* You can adjust this value to control the size of the fading area */
+    background-image: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0), rgb(229, 229, 239, 0.38));
 }
-.firstsec img{
+
+.firstsec img {
     width: 100%;
     margin: 23px;
 }
-#fadingBGimg{
+
+#fadingBGimg {
     background-size: cover;
     width: 100%;
     height: 100%;
 }
-.firstsec >div{
-   width: 30%;
+
+.firstsec>div {
+    width: 30%;
 }
-.leftsec{
-    font-size: 3rem;   
+
+.leftsec {
+    font-size: 3rem;
 }
-.rightsec{
+
+.rightsec {
     margin: 100px;
 }
-#element{
-    color:rgb(161, 116, 203) ;
+
+#element {
+    color: rgb(161, 116, 203);
     font-size: 2rem;
 }
-.aboutme{
+
+.aboutme {
     margin: auto;
     max-width: 80vw;
     /* height: 40vh; */
     display: flex;
 }
-.aboutme p{
+
+.aboutme p {
     color: rgb(87, 84, 84);
 }
-.aboutme button{
+
+.aboutme button {
     border-radius: 10px;
     margin-top: 20px;
     background-color: rgb(224, 219, 229);
     padding: 10px;
     transition: all 0.3s ease-in-out;
 }
-.aboutme button:hover{
-    
+
+.aboutme button:hover {
+
     box-shadow: 10px 10px 30px rgb(16, 15, 15)
 }
-.rightabout{
+
+.rightabout {
     margin: 20px;
     margin-top: 108px;
 }
-.aboutme div img{
-    margin:20px;
+
+.aboutme div img {
+    margin: 20px;
     height: 50vh;
-    filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.5));   
+    filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.5));
 }
+
 /* .leftabout img:hover{
     margin:20px;
     height: 50%;
     filter: drop-shadow(5px 5px 50px rgba(178, 102, 102, 0.7)); 
     transition: all 1s ease-in-out ;  
 } */
-.secondsec{
+.secondsec {
     margin: auto;
     max-width: 80vw;
     background-color: transparent;
     height: 45vh;
 }
-.secondsec h1{
+
+.secondsec h1 {
     font-size: 1.6rem;
-    
+
 }
 
-.textgray{
-    color:#7f7a7a;
+.textgray {
+    color: #7f7a7a;
 }
 
-#nameColor{
-    color:rgb(161, 116, 203) ;
+#nameColor {
+    color: rgb(161, 116, 203);
 }
-.whatido{
+
+.whatido {
     display: flex;
     margin: 10px;
 }
-.idobox{
+
+.idobox {
     /* background-color: blue; */
     border-radius: 10px;
     margin: 20px;
     margin-top: 20px;
     padding: 10px;
-    box-shadow: 
-    0 14px 28px rgba(0,0,0,0.25), 
-    0 10px 10px rgba(0,0,0,0.22);
+    box-shadow:
+        0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
     /* max-width: 35%;*/
-    max-height: 35px; 
+    max-height: 35px;
     min-height: 230px;
     height: 100%;
     width: 100%;
     overflow: hidden;
 }
-.idobox p{
+
+.idobox p {
     font-size: 15px;
     color: rgb(87, 84, 84);
     text-align: center;
@@ -185,31 +219,36 @@ main hr{
     transition: all, 0.5s ease-out;
 
 }
-.idobox:hover{
-    box-shadow: 
-    0 14px 28px rgba(202, 176, 176,0.40), 
-    0 10px 10px rgba(202, 176, 176, 0.30);
+
+.idobox:hover {
+    box-shadow:
+        0 14px 28px rgba(202, 176, 176, 0.40),
+        0 10px 10px rgba(202, 176, 176, 0.30);
 }
-.idobox:hover p{
+
+.idobox:hover p {
     /* visibility: visible;  */
     bottom: 7px;
     opacity: 1;
     visibility: visible;
     transform: translateY(-80%);
-    
+
 }
-.idobox h3.hidden{
-    visibility: hidden;  
+
+.idobox h3.hidden {
+    visibility: hidden;
 }
-.idobox h3{
+
+.idobox h3 {
     text-align: center;
-    color:rgb(161, 116, 203);
+    color: rgb(161, 116, 203);
     /* position: absolute; */
     bottom: 0;
     margin-top: 20%;
-    
+
 }
-.idobox img{
+
+.idobox img {
     height: 30%;
     width: 55px;
     display: block;
@@ -220,44 +259,50 @@ main hr{
 }
 
 
-.thirdsec{
+.thirdsec {
     margin: auto;
     max-width: 80vw;
     background-color: transparent;
     height: 60vh;
 }
-.thirdsec h1{
+
+.thirdsec h1 {
     color: rgb(161, 116, 203);
     padding-bottom: 11px;
 }
-.workexbox{
+
+.workexbox {
     display: flex;
     width: 80vw;
     height: 2px;
     background-color: black;
     margin: 60px 0;
 }
-.verticalExp{
+
+.verticalExp {
     height: 90px;
     width: 1px;
     background-color: black;
     margin-right: 320px;
 }
-.exlogo{
+
+.exlogo {
     height: 28px;
     width: 36px;
     position: relative;
     top: -29px;
     left: -11px
 }
-#ielogo{
+
+#ielogo {
     height: 29px;
     width: 80px;
     position: relative;
     top: -36px;
     right: 38px;
 }
-.exptitle{
+
+.exptitle {
     position: relative;
     top: 58px;
     right: 2px;
@@ -265,7 +310,8 @@ main hr{
     width: 170px;
     font-size: 16px;
 }
-#ietitle{
+
+#ietitle {
     position: relative;
     top: -15px;
     right: 2px;
@@ -273,7 +319,8 @@ main hr{
     width: 170px;
     font-size: 16px;
 }
-.exsummry{
+
+.exsummry {
     width: 300px;
     position: relative;
     top: 74px;
@@ -281,7 +328,8 @@ main hr{
     color: #7f7a7a;
     font-size: 12px;
 }
-#ietitle{
+
+#ietitle {
     position: relative;
     top: 57px;
     right: 2px;
@@ -289,7 +337,8 @@ main hr{
     width: 170px;
     font-size: 16px;
 }
-#iesummry{
+
+#iesummry {
     width: 300px;
     position: relative;
     top: 70px;
@@ -297,16 +346,18 @@ main hr{
     color: #7f7a7a;
     font-size: 12px;
 }
-#gdlogo{
+
+#gdlogo {
     height: 29px;
     width: 80px;
     position: relative;
     top: -36px;
     right: 38px;
-    mix-blend-mode:color-burn;
+    mix-blend-mode: color-burn;
     object-fit: contain;
 }
-#gdtitle{
+
+#gdtitle {
     position: relative;
     top: 57px;
     right: 2px;
@@ -314,7 +365,8 @@ main hr{
     width: 170px;
     font-size: 16px;
 }
-#gdsummry{
+
+#gdsummry {
     width: 300px;
     position: relative;
     top: 70px;
@@ -322,45 +374,222 @@ main hr{
     color: #7f7a7a;
     font-size: 12px;
 }
-footer{
+
+footer {
     background-color: rgb(125, 125, 211);
-    height: 16vh;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-#lasthr{
+
+#lasthr {
     height: 0;
 }
-#contactus h4{
-    padding-top:10px;
+
+#contactus h4 {
+    padding-top: 10px;
     margin-left: 10px;
     padding: 0;
 }
-#contactus p a{
-    margin-left:10px;
+
+#contactus p a {
+    margin-left: 10px;
     text-decoration: none;
     color: white;
-    
+
 }
-.footcenter{
+
+.footcenter {
     display: flex;
     margin: 10px 10px;
     justify-content: center;
 
 }
-.footcenter a{
-    margin-left:0px;
+
+.footcenter a {
+    margin-left: 0px;
     text-decoration: none;
     color: white;
     padding-left: 2px;
     font-size: 14px;
 }
-.links a img{
+
+.links a img {
     height: 50px;
     width: 50px;
     margin: 15px;
 }
-.links a{
+
+.links a {
     text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #leftnavlogo {
+        /* display: none; */
+        margin: 5px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: transparent;
+        position: fixed;
+        height: 70px;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #navbar.white {
+        background-color: rgb(177, 177, 240);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 6px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.1em;
+    }
+
+    nav ul li a:hover {
+        color: rgb(163, 91, 230);
+        font-size: 8px;
+        transition: ease;
+    }
+
+    .left {
+        padding: 0;
+    }
+
+    #firsthr {
+        visibility: visible;
+    }
+
+    .firstsec {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgb(229, 229, 239);
+        height: 58vh;
+        background-image: none;
+    }
+
+    .firstsec>div {
+        width: 80%;
+    }
+
+    .leftsec {
+        font-size: 1.5rem;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #element {
+        color: rgb(161, 116, 203);
+        font-size: 1rem;
+    }
+
+    .aboutme {
+        flex-direction: column;
+    }
+
+    .leftabout {
+        margin: auto;
+    }
+
+    .aboutme div img {
+        height: 30vh;
+    }
+
+    .rightabout {
+        margin-top: 20px;
+    }
+
+    .secondsec {
+        height: auto;
+    }
+
+    .whatido {
+        flex-direction: column;
+    }
+
+    .idobox {
+        max-width: 80%;
+        /* min-height: auto; */
+    }
+
+    .idobox img {
+        height: 20%;
+    }
+
+    .thirdsec {
+        height: 100vh;
+        display: none;
+    }
+
+    .workexbox {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .verticalExp {
+        margin-right: 100px;
+        margin-bottom: 200px;
+    }
+
+    .exlogo {
+        top: -27px;
+        left: -5px;
+        height: 24px;
+        width: 30px;
+    }
+
+    .exptitle,
+    #ietitle,
+    #gdtitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    .exsummry,
+    #iesummry,
+    #gdsummry {
+        width: 100%;
+        text-align: center;
+        height: 10vh;
+        overflow: hidden;
+    }
+
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footcenter {
+        flex-direction: column;
+    }
+
+    .links a img {
+        height: 40px;
+        width: 40px;
+        margin: 10px;
+    }
 }
