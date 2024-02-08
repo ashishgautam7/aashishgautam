@@ -156,8 +156,15 @@ main hr {
 
 .aboutme div img {
     margin: 20px;
+    margin-right: 10vh;
     height: 50vh;
     filter: drop-shadow(10px 5px 5px rgba(0, 0, 0, 0.5));
+    border-radius: 100000vw;
+    /* mix-blend-mode:color-burn */
+    
+}
+.leftabout{
+   
 }
 
 /* .leftabout img:hover{
