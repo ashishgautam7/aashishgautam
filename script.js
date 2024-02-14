@@ -34,7 +34,7 @@ function cvButton() {
 function phoneLogo() {
   const mainLeftHead = document.getElementById("leftnavlogo");
   var screensize = window.innerWidth;
-  if (screensize <= 800) {
+  if (screensize <= 1100) {
     mainLeftHead.textContent = "AG";
   }
 }
