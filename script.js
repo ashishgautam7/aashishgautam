@@ -24,7 +24,7 @@ serviceDiv.forEach((div) => {
 });
 function cvButton() {
   console.log("pressed");
-  var filePath = "asset/Aashish Gautam Resume .docx";
+  var filePath = "asset/Aashish Gautam Resume.docx";
   const a = document.createElement("a");
   a.href = filePath;
   a.download = "Aashish's Resume";
